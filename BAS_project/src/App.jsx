@@ -1,20 +1,9 @@
-import PersonalInfo from './component/personalInfoForm'
-
-import './App.css'
-
-
-
+import UserSignUp from "./component/user/UserSignUp/userSignUp"
 
 function App() {
- 
-
   return (
     <>
-      {/* <Stepper /> */}
-      {/* <UserSignUp/> */}
-      {/* <AccountDetails/> */}
-      {/* <PersonalDetails/> */}
-      <PersonalInfo />
+      <UserSignUp />
     </>
   )
 }

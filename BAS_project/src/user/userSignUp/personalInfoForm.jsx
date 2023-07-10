@@ -1,9 +1,9 @@
-import Stepper from "./stepper";
+import Stepper from "../stepper";
 import GenderButton from "./genderButton";
 
 export default function PersonalInfo() {
   return (
-    <div className="flex flex-col items-center ">
+    <div className="flex flex-col items-center justify-center">
       {<Stepper />}
       <br />
       <form
