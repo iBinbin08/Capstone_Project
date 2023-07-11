@@ -1,4 +1,4 @@
-import UserSignUp from "./component/user/UserSignUp/userSignUp"
+import UserSignUp from "./pages/userSignUp"
 
 function App() {
   return (

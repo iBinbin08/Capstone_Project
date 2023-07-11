@@ -1,20 +1,18 @@
+import { useState } from "react";
 import ImageUpload from "./imageUpload";
 
-function AccountDetails() {
-  return (
-    <div className="border rounded flex grid m-16 px-16 py-8">
-      <form className="">
-        {/* <div className="flex">
-          <div>
-            {" "}
-            <label htmlFor="">Images Uploaded</label>
-          <div>
-          </div>
-            {" "}
-            <button type="button">Upload Picture </button>
-          </div>
-        </div> */}
+import PersonalDetails from "./personalDetails";
 
+function AccountDetails() {
+  const [next, setNext] = useState(0)
+  
+  if (next == 1){
+    return( < PersonalDetails next={next} />)
+  }
+
+  return (
+    <div className="border rounded flex p-5 m-32">
+      <form className="w-full">
         <ImageUpload />      
         <div className="flex flex-col pt-4">
           <label htmlFor="">Email Address: </label>
@@ -31,7 +29,7 @@ function AccountDetails() {
           <input type="password" className="rounded " />
         </div>
 
-        <button type="button" className="float-right rounded-md  bg-gray-600 py-2 px-4 m-1">
+        <button type="button" className="float-right rounded-md  bg-gray-600 py-2 px-4 m-1" onClick={() => {setNext(next + 1)}}>
           Next
         </button>
       </form>
