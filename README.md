@@ -2,7 +2,7 @@
 This repo is for our capstone project.
 
 <h1>Project description:<h1>
-Baranggay Appointment System (BAS) is a web-based application that allows residents of local baranggay to schedule appointments to baranggay officials.
+<b>Baranggay Appointment System</b> (BAS) is a web-based application that allows residents of local baranggay to schedule appointments to baranggay officials.
 
 <h1>Dependencies: </h1>
     <pre>git clone https://github.com/iBinbin08/Capstone_Project.git</pre>
