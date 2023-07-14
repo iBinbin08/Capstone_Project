@@ -10,7 +10,7 @@ import Navbartest from "./component/user/UserNavbarSidebar/navBar"
 function App() {
   return (
     <>
-      
+      <LogIn />      
       <UserNavbar />
       <Sidebartest />
     </>
