@@ -27,3 +27,20 @@
     --ring-color: #2563EB;
 
 }
+
+.Img {
+    width: 381px;
+    height: 294px;
+}
+
+.Login {
+    background-color: #407C87;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn {
+    width: 172px;
+    height: 44px;
+    background-color: #A5DBDD ;
+}
